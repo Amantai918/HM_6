@@ -1,5 +1,5 @@
 public class Boss extends GameEntity {
-    private Weapon weapon;
+    protected Weapon weapon;
 
     public Weapon getWeapon() {
         return weapon;
