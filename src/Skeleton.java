@@ -15,6 +15,6 @@ public class Skeleton extends Boss{
     }
 
     public String skeletonInfo() {
-        return super.info() + this.weapon + " Количевство стрел: " + quiver;
+        return super.info() + " " + this.weapon + " Количевство стрел: " + quiver;
     }
 }
